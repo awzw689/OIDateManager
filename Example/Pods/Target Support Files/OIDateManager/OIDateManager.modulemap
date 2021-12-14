@@ -1,0 +1,6 @@
+framework module OIDateManager {
+  umbrella header "OIDateManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

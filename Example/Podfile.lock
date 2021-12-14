@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - OIDateManager (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - OIDateManager (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  OIDateManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  OIDateManager: ddf7efce82d82653b300c227184a857b5222813f
+
+PODFILE CHECKSUM: c275db032f1e0817ff8aee44a6884a837eec66ba
+
+COCOAPODS: 1.9.3
