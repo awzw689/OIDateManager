@@ -27,6 +27,9 @@ NS_ASSUME_NONNULL_BEGIN
                                dateFormat:(NSString *)dateFormat
                          toTheMillisecond:(BOOL)isMillisecond;
 
+/// 更新
+- (void)updataManager;
+
 @end
 
 NS_ASSUME_NONNULL_END
